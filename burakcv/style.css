@@ -1,4 +1,13 @@
 *{
-	margin:0;
 	padding: 0;
+	margin: 0;
+ }
+ .header
+ {
+	 min-height: 100vh;
+	 width: 100%;
+	 background-image: linear-gradient(rgba(76, 96, 133, 0.4),rgba(76, 96, 133, 0.7)), url(https://sivasticaritaksi.com/resimler/galeri/sivassehiricitaksi.jpg);
+	 background-position: center;
+	 background-size: cover;
+	 position: relative;
  }
