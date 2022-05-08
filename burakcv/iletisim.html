@@ -9,10 +9,10 @@
     <title>İletişim</title>
   </head>
   
-  <body>
+  <body class="yazilar">
   
     <section class="header">
-	<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+	<nav class="navbar fixed-top navbar-expand-sm navbar-dark">
 		<a title="Ana Sayfa" href="index.html" class="navbar-brand mb-0 h1">Navbar</a>
 	<button 
 	class="navbar-toggler" 
@@ -43,13 +43,36 @@
 		<li class="nav-item active"> 
 		<a href="mirasimis.html" class="nav-link">Mirasımız</a>
 		</li>
-		<li class="nav-item active"> 
+		<li class="secili" class="nav-item active"> 
 		<a href="iletisim.html" class="nav-link">İletişim</a>
 		</li>
 	</div>	
 	</nav>
 	</section>
-  
+	
+	<section>
+	<form action="action_page.php">
+	<label class="yazilar" for="adi">Adı:</label> <br>
+	<input type="text" name="adi" id="adi"> <br>
+	
+	<label class="yazilar" for="soyadi">Soyadı:</label> <br>
+	<input type="text" name="soyadi" id="soyadi"> <br>
+	
+	<label class="yazilar" for="eposta">E-posta</label> <br>
+	<input type="email" name="email" id="email"> <br>
+	
+	<label class="yazilar" for="cinsiyet">Cinsiyeti:</label> <br>
+	<input type="radio" name="cinsiyet" value="erkek" id="cinsiyet" checked>Erkek<br>
+	<input type="radio" name="cinsiyet" value="kadin" id="cinsiyet">Kadın <br>
+	
+	<label class="yazilar" for="A">A</label> <br>
+	<input type="checkbox" name="" value="a" id="cb1">
+    <input type="checkbox" name="" value="b" id="cb2"> <br>
+	
+	<label class="yazilar" for="dosya">Dosya</label>
+	<input class="yazilar" type="file" name="dosya" id="dosya"> <br>
+	<input type="reset" value="Hepsini Sil">
+	<input type="submit" value="Gönder"> 
 	
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 

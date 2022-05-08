@@ -3,10 +3,27 @@
 	margin: 0;
  }
 .header{
-	 min-height: 100vh;
+	 min-height: 7.5vh;
 	 width: 100%;
-	 background-image: linear-gradient(rgba(76, 96, 133, 0.4),rgba(76, 96, 133, 0.7)), url(https://sivasticaritaksi.com/resimler/galeri/sivassehiricitaksi.jpg);
 	 background-position: center;
 	 background-size: cover;
 	 position: relative;
+	 background-color:#39A0ED;
 	   }
+form{
+	margin: 0 auto; 
+	width:100%;
+	text-align:center;
+    }
+body{
+	min-height: 100%;
+	background-image: linear-gradient(rgba(76, 96, 133, 0.7),rgba(76, 96, 133, 0.7)), url(https://sivasticaritaksi.com/resimler/galeri/sivassehiricitaksi.jpg);
+    }
+.yazilar{
+	color:#F7F4EA;
+		}
+.secili{
+	color: white;
+	   }
+
+	
