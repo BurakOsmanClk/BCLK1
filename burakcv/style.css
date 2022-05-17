@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
  }
 .header{
 	 min-height: 7.5vh;
@@ -16,14 +17,66 @@ form{
 	text-align:center;
     }
 body{
-	min-height: 100%;
 	background-image: linear-gradient(rgba(76, 96, 133, 0.7),rgba(76, 96, 133, 0.7)), url(https://sivasticaritaksi.com/resimler/galeri/sivassehiricitaksi.jpg);
+	background-attachment: fixed;
+	background-size: 130%;	
     }
 .yazilar{
 	color:#F7F4EA;
 		}
-.secili{
-	color: white;
-	   }
+.swiper{
+	width: 500px;
+	height: 300px;
+		  }
+.swiper-resim{
+	width: 500px;
+	height 300px;
+			 }
+.hakkimda-div{
+	float: left;
+	margin-left: 100px;
+	
+			 }
+.required{
+   color: red;
+         }
+ 
+.errorMsg{
+   color: red;
+         }
+ 
+.errorBox{
+   border: 2px solid red;
+         }
+ 
+table{
+   border: 0;
+   margin-left: auto;
+   margin-right: auto;
+     }
+ 
+td{
+   margin: 0;
+   padding: 3px 10px;
+  }
+h1{
+ 	text-align: center;
+  }
+  .left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.nav{
+	position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+ p 
+ {
+	font-size: 20px; 
+ }
 
+			
 	
